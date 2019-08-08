@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+///输入框
 class InputFieldArea extends StatelessWidget {
   final String hint;
   final bool obscure;

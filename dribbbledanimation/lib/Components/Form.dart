@@ -15,7 +15,7 @@ class FormContainer extends StatelessWidget {
             children: <Widget>[
               new InputFieldArea(
                 hint: "Username",
-                obscure: false,
+                obscure: false
                 icon: Icons.person_outline,
               ),
               new InputFieldArea(

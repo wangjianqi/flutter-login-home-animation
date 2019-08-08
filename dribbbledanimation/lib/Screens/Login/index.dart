@@ -93,7 +93,9 @@ class LoginScreenState extends State<LoginScreen>
                           new Column(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: <Widget>[
+                              ///logo
                               new Tick(image: tick),
+                              ///输入框
                               new FormContainer(),
                               new SignUp()
                             ],
